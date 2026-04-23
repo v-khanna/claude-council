@@ -22,23 +22,25 @@ cp SKILL.md ~/.claude/skills/council/SKILL.md
 In Claude Code:
 
 ```
-/council Should we use a microservice or monolith for this feature?
+/council Should we build this feature in-house or use a third-party API?
 ```
 
-Or:
-
 ```
-/council What's the best approach to handle authentication in our app?
+/council We're thinking about raising prices 20% — what are we missing?
 ```
 
-Works on any decision — code, architecture, business, design.
+```
+/council Should we launch with a smaller feature set now or wait until it's complete?
+```
+
+Works on any decision — product, strategy, architecture, hiring, pricing, whatever.
 
 ### Quick Mode
 
 Skip the debate round for faster results:
 
 ```
-/council --quick Should we rewrite this in Rust?
+/council --quick Is this partnership worth pursuing?
 ```
 
 ## The 5 Personas
